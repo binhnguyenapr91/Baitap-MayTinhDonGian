@@ -1,0 +1,10 @@
+.container{
+    width: 253px;
+    height: 177px;
+    margin: auto;
+    border: 2px solid;
+}
+
+td{
+    border: 1px solid;
+}

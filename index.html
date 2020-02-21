@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="css/this.css">
+    <script src="js/this.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="mainbody">
+            <table class="maintable">
+                <tr>
+                    <td colspan="4"><input type="text" name="txt_Display" id="display"></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="1" value="1" onclick="display.value+=this.value">1</button></td>
+                    <td><button type="button" id="2" value="2" onclick="display.value+=this.value">2</button></td>
+                    <td><button type="button" id="3" value="3" onclick="display.value+=this.value">3</button></td>
+                    <td><button type="button" id="add" value="+" onclick="display.value+=this.value">+</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="4" value="4" onclick="display.value+=this.value">4</button></td>
+                    <td><button type="button" id="5" value="5" onclick="display.value+=this.value">5</button></td>
+                    <td><button type="button" id="6" value="6" onclick="display.value+=this.value">6</button></td>
+                    <td><button type="button" id="sub" value="-" onclick="display.value+=this.value">-</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="7" value="7" onclick="display.value+=this.value">7</button></td>
+                    <td><button type="button" id="8" value="8" onclick="display.value+=this.value">8</button></td>
+                    <td><button type="button" id="9" value="9" onclick="display.value+=this.value">9</button></td>
+                    <td><button type="button" id="mul" value="*" onclick="display.value+=this.value">*</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="c" value="c" onclick="clearDisplayValue()">C</button></td>
+                    <td><button type="button" id="0" value="0 onclick="inputValue()">0</button></td>
+                    <td><button type="button" id="=" value="=" onclick="calculate()">=</button></td>
+                    <td><button type="button" id="divi" value="/" onclick="display.value+=this.value">/</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
